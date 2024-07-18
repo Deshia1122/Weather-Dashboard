@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <!-- Title of the page -->
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <!-- Main heading of the page -->
+  <h1>Weather Dashboard</h1>
+  <!-- Container to hold the input section and weather data -->
+  <div class="container">
+    <!-- Section for weather input -->
+    <div class="weather-input">
+      <h3>Enter a City Name</h3>
+      <!-- Input field for entering city name -->
+      <input class="city-input" type="text" placeholder="E.g., Islamabad, Lahore, Karachi">
+      <!-- Button to search for weather by city name -->
+      <button class="search-btn">Search</button>
+      <!-- Separator between the city input and location button -->
+      <div class="separator"></div>
+      <!-- Button to use the current location for weather data -->
+      <button class="location-btn">Use Current Location</button>
+    </div>
+    <!-- Section for displaying weather data -->
+    <div class="weather-data">
+      <!-- Section for displaying current weather -->
+      <div class="current-weather">
+        <div class="details">
+          <!-- Heading for the current weather, including city name and date -->
+          <h2>Islamabad ( Monday, Jul 3, 2024 )</h2>
+          <!-- Details about the current weather -->
+          <h6>Temperature: 18.7°C</h6>
+          <h6>Wind: 4.3 M/S</h6>
+          <h6>Humidity: 76%</h6>
+        </div>
+      </div>
+      <!-- Section for displaying 5-day weather forecast -->
+      <div class="days-forecast">
+        <h2>5-Day Forecast</h2>
+        <!-- List of weather cards for each day -->
+        <ul class="weather-cards">
+          <!-- Weather card for the first day -->
+          <li class="card">
+            <h3>( Tuesday, Jul 4, 2024 )</h3>
+            <h6>Temp: 17.67°C</h6>
+            <h6>Wind: 0.78 M/S</h6>
+            <h6>Humidity: 70%</h6>
+          </li>
+          <!-- Weather card for the second day -->
+          <li class="card">
+            <h3>( Wednesday, Jul 5, 2024 )</h3>
+            <h6>Temp: 19.79°C</h6>
+            <h6>Wind: 3.56 M/S</h6>
+            <h6>Humidity: 56%</h6>
+          </li>
+          <!-- Weather card for the third day -->
+          <li class="card">
+            <h3>( Thursday, Jul 6, 2024 )</h3>
+            <h6>Temp: 16.79°C</h6>
+            <h6>Wind: 2.72 M/S</h6>
+            <h6>Humidity: 82%</h6>
+          </li>
+          <!-- Weather card for the fourth day -->
+          <li class="card">
+            <h3>( Friday, Jul 7, 2024 )</h3>
+            <h6>Temp: 18.20°C</h6>
+            <h6>Wind: 1.49 M/S</h6>
+            <h6>Humidity: 75%</h6>
+          </li>
+          <!-- Weather card for the fifth day -->
+          <li class="card">
+            <h3>( Saturday, Jul 8, 2024 )</h3>
+            <h6>Temp: 17.80°C</h6>
+            <h6>Wind: 0.9 M/S</h6>
+            <h6>Humidity: 89%</h6>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
